@@ -1,0 +1,59 @@
+# ---------------------------
+# Node.js (for both backend & frontend)
+# ---------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# ---------------------------
+# Environment files
+# ---------------------------
+.env
+.env.local
+.env.production
+.env.development
+
+# ---------------------------
+# Build outputs
+# ---------------------------
+backend/dist/
+backend/build/
+frontend/dist/
+frontend/build/
+
+# ---------------------------
+# Uploads, user data, temp files
+# ---------------------------
+uploads/
+backend/uploads/
+frontend/public/uploads/
+tmp/
+.cache/
+
+# ---------------------------
+# Logs
+# ---------------------------
+logs/
+*.log
+
+# ---------------------------
+# IDE / OS / Tooling
+# ---------------------------
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# ---------------------------
+# Testing & coverage
+# ---------------------------
+coverage/
+
+# ---------------------------
+# Qodana and JetBrains
+# ---------------------------
+qodana.yaml
+.qodana/
