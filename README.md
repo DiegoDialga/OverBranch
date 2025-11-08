@@ -1,2 +1,2 @@
 # OverBranch
-A resume builder 
+Over the branch
